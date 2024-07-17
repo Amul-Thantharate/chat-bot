@@ -1,6 +1,6 @@
-# ChatGPT clone with Streaming Feature using Streamlit
+# ChatGpt Clone Using Google Gemini 
 
-Welcome to the GitHub repository for the Streaming tutorial form LangChain and Streamlit. This repository contains the code for the Streamlit app that we will be building in the tutorial. The app is a chatbot that will remember the previous messages and respond to the user's input. The response from the chatbot will be streamed as it is being generated.
+This repository contains the code for a chatbot that uses the Google Gemini API to generate responses to user input. The chatbot is built using the Streamlit library, and it allows users to interact with the chatbot in a web browser. The chatbot uses the GPT-3 model to generate responses to user input, and it can carry on a conversation with users on a wide range of topics.
 
 ## Usage
 
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Once you have installed the required packages, you can run the app by running the following command in your terminal:
 
 ```bash
-streamlit run src/app.py
+streamlit run app.py
 ```
 
 This will start the Streamlit app, and you will be able to interact with the chatbot in your web browser.
